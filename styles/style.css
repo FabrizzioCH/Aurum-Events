@@ -60,3 +60,9 @@
 .carta-eventos:hover {
   transform: scale(1.05);
 }
+
+/* Carrusel: todas las imágenes ocupan el 70% del alto de la pantalla */
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}

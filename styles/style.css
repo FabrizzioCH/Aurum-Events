@@ -1,0 +1,62 @@
+.encabezado {
+  min-height: 500px;
+  background-image: url("../assets/img/preposada2/escenario-pp2.JPG");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-encabezado {
+  width: 800px;
+  height: 300px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+}
+
+.encabezado h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.carta-pp1 {
+  background-image: url("../assets/img/preposada1/portada-pp1.png");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 280px;
+  transition: transform 0.3s ease;
+}
+
+.carta-pp2 {
+  background-image: url("../assets/img/preposada2/portada-pp2.png");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 280px;
+  transition: transform 0.3s ease;
+}
+
+.carta-pp3 {
+  background-image: url("../assets/img/preposada3/portada-pp3.png");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 280px;
+  transition: transform 0.3s ease;
+}
+
+.carta-pp4 {
+  background-image: url("../assets/img/halloween/portada-hf.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 280px;
+  transition: transform 0.3s ease;
+}
+
+.carta-eventos:hover {
+  transform: scale(1.05);
+}
